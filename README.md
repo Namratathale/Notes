@@ -50,20 +50,22 @@ Follow these steps to run the frontend locally on your machine.
 ```bash
 git clone [https://github.com/YOUR_GITHUB_USERNAME/notes-app-frontend.git](https://github.com/YOUR_GITHUB_USERNAME/notes-app-frontend.git)
 cd notes-app-frontend
-
+```
 ### 2. Install Dependencies
 ```bash
 npm install
+```
 ### 3. Configure the Backend Connection
 Ensure your src/config.js file is pointing to your active EC2 instance's Public IPv4 address.
 
 ``` bash
 // src/config.js
 export const API_URL = 'http://YOUR_EC2_PUBLIC_IP:3000/api/notes';
-
+```
 ### 4. Start the Development Server
 ``` bash
 npm run dev
 Open your browser and navigate to http://localhost:5173 to view the application!
+```
 
 
