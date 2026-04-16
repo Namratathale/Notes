@@ -65,10 +65,3 @@ npm run dev
 Open your browser and navigate to http://localhost:5173 to view the application!
 
 
-***
-
-Once you add that `README.md` file, you can run these quick commands to push it up to GitHub:
-```bash
-git add README.md
-git commit -m "Added professional README"
-git push
